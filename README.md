@@ -19,5 +19,6 @@ py index-dev.py 'key' 'prod|dev|testing'
     1.selenium驱动click失去焦点BUG
     2.配置项需要统一管理
     3.只获取了列表页源码,详细内容需开发其他脚本获取
+    4.仅学习用
 ```
 	

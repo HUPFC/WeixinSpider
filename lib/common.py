@@ -89,6 +89,3 @@ class common:
         else:
             return int(random.random() * 100000)
 
-    def writelog(dir,str):
-        f = file(dir,'w')
-

@@ -185,7 +185,7 @@ class SgWxSpider(Dom):
         }
         str = json.dumps(dic, ensure_ascii=False)
         print(str)
-        self.redis.rpush(self.wx_progress,str)
+        #self.redis.rpush(self.wx_progress,str)
 
     def sleep_random(self,start=2,end=4):
         num = random.uniform(start,end)
